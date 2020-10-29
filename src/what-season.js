@@ -15,4 +15,5 @@ module.exports = function getSeason(date) {
   month = month === 12 ? 0 : month;
 
   return timeYear[Math.floor(month / 3)];
+
 };
